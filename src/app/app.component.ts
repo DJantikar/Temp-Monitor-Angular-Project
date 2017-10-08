@@ -66,6 +66,7 @@ getProgress(){
   return this.progress+'%';
 }
 clear(){
+  this.reset();
   this.tService.clear();
 }
 }
